@@ -10,6 +10,8 @@ public class Student {
         System.out.println("Instance variable = " + number);
 
 
+
+
     }
 
 }
