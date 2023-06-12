@@ -1,10 +1,10 @@
-package controlstatement.ifelse;
+package controlstatement.decision;
 
 public class Collage {
     public void getMarks(){
         int mathmarks = 50;
         int sciencemarks = 60;
-
+        System.out.println(" Using If-Else");
         if (mathmarks>50 && sciencemarks>50){
             System.out.println("You have got an A");
         } else if(mathmarks>40 && sciencemarks>40){
@@ -16,6 +16,8 @@ public class Collage {
 
     public void getSwitchMarks(){
         int Computermark =40;
+        System.out.println();
+        System.out.println(" Using Switch");
         switch (Computermark){
             case 20:
                 System.out.println("Fail...");

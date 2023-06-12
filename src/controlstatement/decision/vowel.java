@@ -1,13 +1,13 @@
-package controlstatement.ifelse;
+package controlstatement.decision;
 
 public class vowel {
     public void checkVowel(){
         char vol = 'a';
 
         if (vol == 'a' ||vol == 'e' ||vol == 'i' ||vol == 'o' ||vol == 'u'){
-            System.out.println("It is vowel");
+            System.out.println("It is vowel using if-else");
         } else{
-            System.out.println("It is not vowel");
+            System.out.println("It is consonant using if-else");
         }
     }
         public void switchVowel(){
@@ -18,10 +18,10 @@ public class vowel {
                 case 'i':
                 case 'o':
                 case 'u':
-                    System.out.println("Vowel");
+                    System.out.println("It is Vowel using Switch");
                     break;
                 default:
-                    System.out.println("Consonant");
+                    System.out.println("It is Consonant using Switch");
             }
     }
 }

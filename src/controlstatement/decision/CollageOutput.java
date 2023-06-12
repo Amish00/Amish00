@@ -1,4 +1,4 @@
-package controlstatement.ifelse;
+package controlstatement.decision;
 
 public class CollageOutput {
     public static void main(String[] args) {
