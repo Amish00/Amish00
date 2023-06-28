@@ -9,6 +9,7 @@ public class Calculator {
         try {
             System.out.println(100/0);
         }catch (Exception e){
+            e.printStackTrace();
             System.out.println("Error Occurred");
         }
         System.out.println("5");
