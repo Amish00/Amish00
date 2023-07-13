@@ -8,7 +8,6 @@ public class college {
     public void getStudentGrade() {
         System.out.println("Enter Math Marks: ");
         int mathMarks = sc.nextInt();
-
         System.out.println("Enter Science Marks: ");
         int scienceMarks = sc.nextInt();
 
