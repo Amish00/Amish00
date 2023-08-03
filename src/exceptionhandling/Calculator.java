@@ -27,5 +27,13 @@ public class Calculator {
             System.out.println(i / (j + 2));
         }
     }
+
+    public void displayAge(int age) throws ArithmeticException{
+        if(age < 20){
+            throw new ArithmeticException("Teenage");
+        }else{
+            System.out.println("Good to good....");
+        }
+    }
 }
 
