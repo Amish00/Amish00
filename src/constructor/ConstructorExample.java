@@ -21,5 +21,6 @@ public class ConstructorExample {
         ConstructorExample e2 = new ConstructorExample("Ram");
         e1.getName();
         e1.getName("Sita");
+        e2.getName();
     }
 }
